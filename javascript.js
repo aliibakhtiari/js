@@ -8,9 +8,9 @@ var strChar = String.fromCharCode(119,101,98,32,100,101,118,101,108,111,112,114)
 console.log(strChar);
 
 
-let txt = ""; 
-for(let count = 0; count < 10;count++) { 
-    console.log(txt+="*"); 
+let txt = "*"; 
+for(let i = 0; i < 10;i++) { 
+    console.log(txt+" "); 
 }
 
 let spl = "salam chetori khoobi"
